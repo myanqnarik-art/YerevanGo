@@ -1,0 +1,6 @@
+{
+  "name": "YerevanGo",
+  "description": "Ժամանակակից հարթակ Երևանում համատեղ երթևեկության և ուղեկիցներ գտնելու համար։ Խնայիր ժամանակ ու գումար՝ ճանապարհորդելով միասին։",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
