@@ -1,3 +1,4 @@
+import heroImage from './assets/images/yerevan_skyline_hero_1791747110375.jpg';
 import React, { useState, useMemo } from 'react';
 import { 
   Ride, 
