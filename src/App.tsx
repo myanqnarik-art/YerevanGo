@@ -411,12 +411,15 @@ export default function App() {
                   {/* Right Column: Yerevan Scenic Skyline Image */}
                   <div className="lg:col-span-5 relative flex flex-col">
                     <div className="relative rounded-3xl overflow-hidden border border-slate-200/80 shadow-2xl h-full min-h-[300px]">
-                      <img
-                        src="/src/assets/images/yerevan_skyline_hero_1791747110375.jpg"
-                        alt="Երևան, Կասկադ և Արարատ"
-                        className="w-full h-full object-cover object-center"
-                        referrerPolicy="no-referrer"
-                      />
+                     <img
+  src={heroImage}
+  alt="Երևանի համայնապատկերը՝ Կասկադով և Արարատ լեռան տեսարանով"
+  width="1000"
+  height="563"
+  fetchPriority="high"
+  decoding="async"
+  className="w-full h-full object-cover object-center"
+/>
                       
                       {/* Gradient Scrim for Legibility */}
                       <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent" />
